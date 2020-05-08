@@ -1,0 +1,14 @@
+com\wx\controller\TravellerController.class
+com\wx\controller\OutController.class
+com\wx\controller\ApplicationControllerExceptionHandler.class
+com\wx\controller\OrdersController.class
+com\wx\controller\DiaryController.class
+com\wx\controller\MainController.class
+com\wx\controller\UserController.class
+com\wx\controller\MemberController.class
+com\wx\controller\SysLogController.class
+com\wx\controller\CommentController.class
+com\wx\controller\RoleController.class
+com\wx\controller\LogAop.class
+com\wx\controller\PermissionController.class
+com\wx\controller\ProductController.class

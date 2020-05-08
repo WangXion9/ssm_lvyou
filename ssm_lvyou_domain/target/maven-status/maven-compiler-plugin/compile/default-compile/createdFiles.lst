@@ -1,0 +1,12 @@
+com\wx\domain\Permission.class
+com\wx\domain\Diary.class
+com\wx\domain\dto\OrdersDto.class
+com\wx\domain\Product.class
+com\wx\domain\Member.class
+com\wx\domain\City.class
+com\wx\domain\SysLog.class
+com\wx\domain\UserInfo.class
+com\wx\domain\Comment.class
+com\wx\domain\Orders.class
+com\wx\domain\Role.class
+com\wx\domain\Traveller.class

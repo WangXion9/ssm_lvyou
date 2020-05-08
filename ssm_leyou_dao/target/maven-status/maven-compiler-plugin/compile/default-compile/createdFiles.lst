@@ -1,0 +1,11 @@
+com\wx\dao\IProductDao.class
+com\wx\dao\IRoleDao.class
+com\wx\dao\ITravellerDao.class
+com\wx\dao\IUserDao.class
+com\wx\dao\ICityDao.class
+com\wx\dao\ISysLogDao.class
+com\wx\dao\IMemberDao.class
+com\wx\dao\ICommentDao.class
+com\wx\dao\IPermissionDao.class
+com\wx\dao\IDiaryDao.class
+com\wx\dao\IOrderesDao.class
