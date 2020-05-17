@@ -20,7 +20,8 @@ public class DiaryServiceImpl implements IDiaryService {
     private IDiaryDao diaryDao;
 
     @Override
-    public List<Diary> findAll(Integer page, Integer size, String title) throws Exception {
+    public List<Diary> findAll(Integer page, Integer size, String title
+    ) throws Exception {
         if ("".equals(title)){
             PageHelper.startPage(page, size);
             return diaryDao.findAll();
