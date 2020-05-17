@@ -23,7 +23,6 @@ import java.util.List;
 @RequestMapping("/diary")
 @RolesAllowed({"ADMIN","DIARY","TEST"})
 public class DiaryController {
-
     @Autowired
     private IDiaryService diaryService;
 
@@ -36,7 +35,8 @@ public class DiaryController {
     @RequestMapping("/findAll.do")
     public ModelAndView findAll(@RequestParam(name = "page", required = true, defaultValue = "1")Integer page,
                                 @RequestParam(name = "size", required = true, defaultValue = "4")Integer size,
-                                @RequestParam(name = "title", required = true, defaultValue = "")String title) throws Exception{
+                                @RequestParam(name = "title", required = true, defaultValue = "")String title
+    )throws Exception{
         title = MyStringUtils.create2UTF8(title);
         ModelAndView mv = new ModelAndView();
         List<Diary> diaryList = diaryService.findAll(page, size, title);
