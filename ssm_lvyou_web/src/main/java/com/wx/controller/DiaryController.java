@@ -57,6 +57,11 @@ public class DiaryController {
         return mv;
     }
 
+    /**
+     * 增加游记之前的操作
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("/addBeforeDiary.do")
     public ModelAndView addBeforeDiary() throws Exception{
         ModelAndView mv = new ModelAndView();
