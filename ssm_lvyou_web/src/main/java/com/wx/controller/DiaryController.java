@@ -32,6 +32,14 @@ public class DiaryController {
     @Autowired
     private IMemberService memberService;
 
+    /**
+     * 分页查询所有
+     * @param page
+     * @param size
+     * @param title
+     * @return
+     * @throws Exception
+     */
     @RequestMapping("/findAll.do")
     public ModelAndView findAll(@RequestParam(name = "page", required = true, defaultValue = "1")Integer page,
                                 @RequestParam(name = "size", required = true, defaultValue = "4")Integer size,
